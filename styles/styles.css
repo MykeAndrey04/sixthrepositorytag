@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dosis&family=Shadows+Into+Light&display=swap');
+
+.titulo1{
+    background-color: bisque;
+    font-size: 2rem;
+    color: lightcoral;
+    justify-content: center;
+    font-family: 'Shadows Into Light', cursive;
+}
+.titulo2{
+    font-family: 'Shadows Into Light', cursive;
+}
+.titulo3{
+    font-family: 'Amatic SC', sans-serif;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: transparent;
+    color: azure;
+    font-family: 'Amatic SC', sans-serif;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: lightsalmon;
+}
+body{
+    background-color: #A9C9FF;
+    background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;   
+}
+.table{
+    border-collapse: collapse;
+}
+.table td{
+    border: 1px solid;
+    text-align: center;
+}
+.table th{
+    background-color: lightblue;
+    color: lightcyan;
+}
+.table td:hover{
+    background-color: lightskyblue;
+    color: bisque;
+}
+.table td.hover{
+    background-color: lightgoldenrodyellow;
+    color: lemonchiffon;
+}
+.td{
+    font-weight: bold;
+}
+caption{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 23px;
+}
